@@ -1,6 +1,6 @@
-# ips-rs
+# rhack
 
-A CLI wrapper for the IPS crate.
+Patching utility!
 
 ## Usage:
 
