@@ -1,10 +1,17 @@
 [package]
-name = "ips-rs"
-version = "0.1.0"
+name = "rhack"
+version = "0.2.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "rhack"
+path = "src/main.rs"
+
 [dependencies]
 clap = { version = "4.2.2", features = ["derive"] }
-ips = "0.1.0"
+ips = { git = "https://github.com/gallantcrusader/ips.git", version = "0.2.0" }
+
+xdelta3 = { git = "https://github.com/gallantcrusader/xdelta3-rs.git" }
+# xdelta3 = "0.1.5"
