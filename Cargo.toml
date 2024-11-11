@@ -1,17 +1,18 @@
 [package]
 name = "rhack"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [[bin]]
-name = "rhack"
+name = "rk"
 path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4.2.2", features = ["derive"] }
 ips = { git = "https://github.com/gallantcrusader/ips.git", version = "0.2.0" }
+# ups = {path = "/Users/gallant/git/ups-rs/"}
 
 xdelta3 = { git = "https://github.com/gallantcrusader/xdelta3-rs.git" }
 # xdelta3 = "0.1.5"

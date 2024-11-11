@@ -2,6 +2,7 @@ use clap::{arg, Command};
 use std::fs::{self, OpenOptions};
 use std::io::{Read, Seek, SeekFrom, Write};
 use std::path::{Path, PathBuf};
+//use ups::UpsPatch;
 use xdelta3::decode;
 
 use ips::Patch;
