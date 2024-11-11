@@ -2,3 +2,4 @@
 *.ups
 *.ips
 *.xdelta
+.DS_Store
